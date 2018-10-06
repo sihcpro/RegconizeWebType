@@ -85,7 +85,9 @@ def getInfoDantri(fileName, dom):
 	# print("Content  : ", c)
 	with open("content/"+fileName, "w") as f:
 		f.write(Dantri.getName(dom))
+		f.write("\n")
 		f.write(Dantri.getMainIdea(dom))
+		f.write("\n")
 		f.write(Dantri.getContent(dom))
 
 def getInfoTwentyFourHours(fileName, dom):
@@ -97,7 +99,9 @@ def getInfoTwentyFourHours(fileName, dom):
 	# print("Content  : ", c)
 	with open("content/"+fileName, "w") as f:
 		f.write(TwentyFourHours.getName(dom))
+		f.write("\n")
 		f.write(TwentyFourHours.getMainIdea(dom))
+		f.write("\n")
 		f.write(TwentyFourHours.getContent(dom))
 
 
