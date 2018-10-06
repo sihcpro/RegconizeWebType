@@ -47,6 +47,6 @@ for search_key in list_keywords:
 		break
 
 
-with open('500LinkUncensor.txt', 'w') as f:
+with open('list500LinkUncensor.txt', 'w') as f:
 	for link in setLinks:
 		f.write(link+'\n')
