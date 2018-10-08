@@ -2,7 +2,7 @@ import re
 import requests
 
 list_keywords = []
-with open('keyword-list.txt', 'r') as f:
+with open('list-keyword.txt', 'r') as f:
 	myre = re.compile(r'\'[^\']*\'')
 	list_keywords = myre.findall(f.read())
 	for i in range(len(list_keywords)):
@@ -11,18 +11,21 @@ with open('keyword-list.txt', 'r') as f:
 	print(list_keywords)
 
 list_site = []
-with open('site-list.txt', 'r') as f:
+with open('list-site.txt', 'r') as f:
 	myre = re.compile(r'\'[^\']*\'')
 	list_site = f.read()
 	list_site = list_site.split('\n')
 	print(list_site)
 
 setLinks = set()
+arrLinks = []
+numOfPage = 5
+maxNumOfLink = 1000
 count_word = 0
 for search_key in list_keywords:
 	count_word+= 1
 	for website in list_site:
-		for page_num in range(5):
+		for page_num in range(numOfPage):
 			search_link = 'https://bing.com/search?format=rss&q=site:' + \
 			website + '+' + search_key + '&first=' + str(page_num*10+1)
 			if page_num == 0:
@@ -37,16 +40,20 @@ for search_key in list_keywords:
 				link.find('microsoft.com') != -1 or \
 				len(link) < 80:
 					continue
+				sortLink = re.compile(r'([^/]*$)').findall(link)[0]
+				if sortLink in setLinks:
+					continue
 				print(link)
-				setLinks.add(link)
+				setLinks.add(sortLink)
+				arrLinks.append(link)
 
 	lenSet = len(setLinks)
-	print("      -------- ", 'word: ', count_word, '/50', \
-		'   len: ', lenSet,'/500', " --------")
-	if lenSet >= 500:
+	print("      -------- ", 'word: ', count_word, '/', len(list_keywords), \
+		'   len: ', lenSet,'/', maxNumOfLink, " --------")
+	if lenSet >= maxNumOfLink:
 		break
 
 
-with open('500LinkUncensor.txt', 'w') as f:
-	for link in setLinks:
+with open('list500LinkUncensor.txt', 'w') as f:
+	for link in arrLinks:
 		f.write(link+'\n')
