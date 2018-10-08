@@ -1,1 +1,70 @@
-'Lật xe khách', 'Tai nạn xe khách', 'Đâm xe', 'Thương vong xe khách', 'Đâm vào vách núi', 'Chết thảm dưới gầm xe', 'Ô tô tải cán xe máy', 'Ô tô tải va xe khách', 'Trượt đường băng , máy bay gẫy cánh', 'xe đầu kéo cháy giữa đường', 'Tử vong khi dừng giữa đường', 'Thanh bê tông đâm thủng xe', 'tai nạn xe liên hoàn', 'Đi xe vật rơt trúng người', 'Ô tô rơi xuống ruộng', 'xe container húc vào nhau', 'tài xe ngủ gục trên xe ', 'Xe buýt đi thẳng xuống sông', 'Lật tàu thủy', 'Xe máy trượt ngã trên đường', 'Mở cửa ô tô bắt ngờ', 'Xe đứt thắng, gây tai nạn', 'Ngã vào bánh xẽ container', 'Tránh công nông, xe khách lật xuống ruộng', 'Pha va chạm giữa các xe khách', 'tai nạn giao thông', 'tài xế ngủ gật', 'thiếu quan sát', 'điểm mù container', 'tạt đầu xe', 'ôtô cán', 'ngã ra đường', 'nạn nhân', 'lái xe', 'đâm phải', 'va chạm', 'tông vào', 'bị lật', 'vượt ẩu', 'hư hỏng nặng', 'hỏng động cơ', 'máy bay rơi', 'đánh lái', 'xe buýt lấn làn', 'say rượu lái xe', 'tai nạn tàu hỏa', 'kéo lê trên đường', 'hư hỏng hoàn toàn', 'bị tàu tông', 'xảy ra tai nạn', 'nát bét'
+'Trượt đường băng máy bay gẫy cánh',
+
+
+'Ô tô tải cán xe máy',
+'Ô tô tải va xe khách',
+
+'xe khách lật xuống ruộng',
+'Đi xe vật rơt trúng người',
+'tài xế ngủ gục trên xe ',
+'tai nạn Mở cửa ô tô',
+'va chạm giữa các xe khách',
+'nạn nhân tai nạn giao thông',
+
+
+'xe container húc vào nhau',
+'Xe đứt thắng gây tai nạn',
+'xe hư hỏng hoàn toàn',
+'xe va chạm bẹp rúm',
+'xe Ô tô rơi xuống ruộng',
+
+'chết người điểm mù container',
+'Chết thảm dưới gầm xe',
+
+'tai nạn xe liên hoàn',
+'xảy ra tai nạn xe',
+
+
+'xe chết thương tâm',
+'xe hư hỏng nặng',
+'xe hỏng động cơ',
+'xe buýt lấn làn',
+'Xe buýt xuống sông',
+'Xe máy trượt ngã',
+
+'tai nạn giao thông',
+'Tai nạn xe khách',
+'tai nạn tàu hỏa',
+
+'Đâm vào vách núi',
+'Thương vong xe khách',
+'xe đầu kéo cháy',
+'Tử vong giữa đường',
+'tài xế ngủ gật',
+'say rượu lái xe',
+'kéo lê trên đường',
+
+
+'xe bị lật',
+'xe vượt ẩu',
+'xe mất lái',
+'xe nát bét'
+
+'ngã vào container',
+'ngã ra đường',
+
+'Lật xe khách',
+'Lật xe tàu',
+
+'thiếu quan sát',
+'đâm thủng xe',
+'tạt đầu xe',
+'xe đâm phải',
+'tông vào xe',
+'húc vào xe',
+'máy bay rơi',
+'bị tàu tông',
+
+'ôtô cán',
+'lật xe',
+'Đâm xe',
